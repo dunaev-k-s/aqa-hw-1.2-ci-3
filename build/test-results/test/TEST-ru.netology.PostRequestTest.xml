@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.PostRequestTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-08-12T20:35:51" hostname="DESKTOP-U69KE6T" time="4.153">
+<testsuite name="ru.netology.PostRequestTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-08-15T15:39:19" hostname="DESKTOP-U69KE6T" time="6.617">
   <properties/>
-  <testcase name="shouldSendRequest()" classname="ru.netology.PostRequestTest" time="4.153">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Response body doesn't match expectation.&#10;Expected: The content to match the given JSON schema.&#10;error: instance value (&quot;another data&quot;) not found in enum (possible values: [&quot;some data&quot;])&#10;    level: &quot;error&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Konstantin/Desktop/AQA/Homework%201.2/aqa-hw-1.2-ci-3/build/resources/test/echo.schema.json#&quot;,&quot;pointer&quot;:&quot;/properties/data&quot;}&#10;    instance: {&quot;pointer&quot;:&quot;/data&quot;}&#10;    domain: &quot;validation&quot;&#10;    keyword: &quot;enum&quot;&#10;    value: &quot;another data&quot;&#10;    enum: [&quot;some data&quot;]&#10;&#10;  Actual: {&quot;args&quot;:{},&quot;data&quot;:&quot;another data&quot;,&quot;files&quot;:{},&quot;form&quot;:{},&quot;headers&quot;:{&quot;x-forwarded-proto&quot;:&quot;https&quot;,&quot;x-forwarded-port&quot;:&quot;443&quot;,&quot;host&quot;:&quot;postman-echo.com&quot;,&quot;x-amzn-trace-id&quot;:&quot;Root=1-6115862a-5081e6667c21b59b00bef662&quot;,&quot;content-length&quot;:&quot;12&quot;,&quot;accept&quot;:&quot;*/*&quot;,&quot;content-type&quot;:&quot;text/plain; charset=ISO-8859-1&quot;,&quot;user-agent&quot;:&quot;Apache-HttpClient/4.5.13 (Java/11.0.10)&quot;,&quot;accept-encoding&quot;:&quot;gzip,deflate&quot;},&quot;json&quot;:null,&quot;url&quot;:&quot;https://postman-echo.com/post&quot;}&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+  <testcase name="shouldSendRequest()" classname="ru.netology.PostRequestTest" time="6.617">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Response body doesn't match expectation.&#10;Expected: The content to match the given JSON schema.&#10;error: instance value (&quot;some data&quot;) not found in enum (possible values: [&quot;awesome data&quot;])&#10;    level: &quot;error&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Konstantin/Desktop/AQA/Homework%201.2/aqa-hw-1.2-ci-3/build/resources/test/echo.schema.json#&quot;,&quot;pointer&quot;:&quot;/properties/data&quot;}&#10;    instance: {&quot;pointer&quot;:&quot;/data&quot;}&#10;    domain: &quot;validation&quot;&#10;    keyword: &quot;enum&quot;&#10;    value: &quot;some data&quot;&#10;    enum: [&quot;awesome data&quot;]&#10;&#10;  Actual: {&quot;args&quot;:{},&quot;data&quot;:&quot;some data&quot;,&quot;files&quot;:{},&quot;form&quot;:{},&quot;headers&quot;:{&quot;x-forwarded-proto&quot;:&quot;https&quot;,&quot;x-forwarded-port&quot;:&quot;443&quot;,&quot;host&quot;:&quot;postman-echo.com&quot;,&quot;x-amzn-trace-id&quot;:&quot;Root=1-6119352c-269a0c1104bc5a0926c71105&quot;,&quot;content-length&quot;:&quot;9&quot;,&quot;accept&quot;:&quot;*/*&quot;,&quot;content-type&quot;:&quot;text/plain; charset=ISO-8859-1&quot;,&quot;user-agent&quot;:&quot;Apache-HttpClient/4.5.13 (Java/11.0.10)&quot;,&quot;accept-encoding&quot;:&quot;gzip,deflate&quot;},&quot;json&quot;:null,&quot;url&quot;:&quot;https://postman-echo.com/post&quot;}&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Response body doesn't match expectation.
 Expected: The content to match the given JSON schema.
-error: instance value (&quot;another data&quot;) not found in enum (possible values: [&quot;some data&quot;])
+error: instance value (&quot;some data&quot;) not found in enum (possible values: [&quot;awesome data&quot;])
     level: &quot;error&quot;
     schema: {&quot;loadingURI&quot;:&quot;file:/C:/Users/Konstantin/Desktop/AQA/Homework%201.2/aqa-hw-1.2-ci-3/build/resources/test/echo.schema.json#&quot;,&quot;pointer&quot;:&quot;/properties/data&quot;}
     instance: {&quot;pointer&quot;:&quot;/data&quot;}
     domain: &quot;validation&quot;
     keyword: &quot;enum&quot;
-    value: &quot;another data&quot;
-    enum: [&quot;some data&quot;]
+    value: &quot;some data&quot;
+    enum: [&quot;awesome data&quot;]
 
-  Actual: {&quot;args&quot;:{},&quot;data&quot;:&quot;another data&quot;,&quot;files&quot;:{},&quot;form&quot;:{},&quot;headers&quot;:{&quot;x-forwarded-proto&quot;:&quot;https&quot;,&quot;x-forwarded-port&quot;:&quot;443&quot;,&quot;host&quot;:&quot;postman-echo.com&quot;,&quot;x-amzn-trace-id&quot;:&quot;Root=1-6115862a-5081e6667c21b59b00bef662&quot;,&quot;content-length&quot;:&quot;12&quot;,&quot;accept&quot;:&quot;*/*&quot;,&quot;content-type&quot;:&quot;text/plain; charset=ISO-8859-1&quot;,&quot;user-agent&quot;:&quot;Apache-HttpClient/4.5.13 (Java/11.0.10)&quot;,&quot;accept-encoding&quot;:&quot;gzip,deflate&quot;},&quot;json&quot;:null,&quot;url&quot;:&quot;https://postman-echo.com/post&quot;}
+  Actual: {&quot;args&quot;:{},&quot;data&quot;:&quot;some data&quot;,&quot;files&quot;:{},&quot;form&quot;:{},&quot;headers&quot;:{&quot;x-forwarded-proto&quot;:&quot;https&quot;,&quot;x-forwarded-port&quot;:&quot;443&quot;,&quot;host&quot;:&quot;postman-echo.com&quot;,&quot;x-amzn-trace-id&quot;:&quot;Root=1-6119352c-269a0c1104bc5a0926c71105&quot;,&quot;content-length&quot;:&quot;9&quot;,&quot;accept&quot;:&quot;*/*&quot;,&quot;content-type&quot;:&quot;text/plain; charset=ISO-8859-1&quot;,&quot;user-agent&quot;:&quot;Apache-HttpClient/4.5.13 (Java/11.0.10)&quot;,&quot;accept-encoding&quot;:&quot;gzip,deflate&quot;},&quot;json&quot;:null,&quot;url&quot;:&quot;https://postman-echo.com/post&quot;}
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -52,7 +52,7 @@ error: instance value (&quot;another data&quot;) not found in enum (possible val
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
 	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-	at ru.netology.PostRequestTest.shouldSendRequest(PostRequestTest.java:22)
+	at ru.netology.PostRequestTest.shouldSendRequest(PostRequestTest.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -3,7 +3,7 @@
   "type": "object",
       "properties": {
       "data": {
-        "enum": ["some data"]
+        "enum": ["awesome data"]
       }
   }
 }
